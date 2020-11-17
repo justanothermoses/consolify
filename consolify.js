@@ -9,7 +9,7 @@
 
    const consoleOutput = document.createElement('div')
 //    consoleOutput.id = 'consoleOutput'
-  consoleOutput.style.cssText = 'position: fixed; width: 100%; height: ' + consoleHeight +'px;left: 0;bottom: 0;padding: 15px;overflow-y: scroll;background-color: #fffd;z-index: 100000; transition: .3s linear;'
+  consoleOutput.style.cssText = 'position: fixed; box-sizing: border-box; width: 100%; height: ' + consoleHeight +'px;left: 0;bottom: 0;padding: 15px;overflow-y: scroll;background-color: #fffd;z-index: 100000; transition: .3s linear;'
   document.querySelector('html').appendChild(consoleOutput);
   
   const consoleCloseButton = document.createElement('div')
